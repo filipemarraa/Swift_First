@@ -5,6 +5,7 @@
 //  Created by Filipe Jacobson Marra on 24/05/24.
 //
 
+import Foundation
 import SwiftUI
 
 struct ContentView: View {
@@ -13,11 +14,19 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Testando os Commits")
+                .foregroundColor(.green)
         }
         .padding()
     }
 }
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
 
 #Preview {
     ContentView()
